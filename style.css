@@ -1,3 +1,6 @@
+
+/* -------general------- */
+
 *,
 *::before,
 *::after {
@@ -12,6 +15,9 @@ body {
   flex-direction: column;
   min-width: 600px;
 }
+
+
+/* -------section-one------- */
 
 .section-one {
   display: flex;
@@ -81,6 +87,7 @@ a {
   min-height: 300px;
   max-height: 300px;
   min-width: 600px;
+  border-radius: 10px;
 }
 
 .hero-main-text {
@@ -104,4 +111,50 @@ a {
   border: none;
   color: white;
   background-color: #3882f6;
+}
+
+
+/* -------section-two------- */
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 450px;
+}
+
+.information-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.image-subtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+  border-radius: 14px;
+  border: solid 3px #3882f6;
+  margin: 25px 25px 0;
+}
+
+.subtext {
+  padding: 4px 0 16px;
+  width: 160px;
+  text-align: center;
+  color: #4b5563;
 }
