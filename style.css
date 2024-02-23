@@ -225,3 +225,15 @@ a {
   border: 2px solid #fff;
   background-color: #3882f6;
 }
+
+
+/* -------footer------- */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  color: #fff;
+  background-color: #1f2937;
+}
