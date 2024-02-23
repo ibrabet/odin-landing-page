@@ -191,3 +191,37 @@ a {
   font-size: 24px;
   font-weight: 800;
 }
+
+
+/* -------section-four------- */
+
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 60px 30px;
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 80px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 950px;
+  gap: 16px;
+  color: #fff;
+}
+
+.cta button {
+  font-size: 16px;
+  font-weight: 900;
+  padding: 6px 42px;
+  border-radius: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #3882f6;
+}
